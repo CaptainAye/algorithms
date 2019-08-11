@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e321e7a-421e-4bf4-9ac8-f9f49846b57a" name="Default" comment="" />
+    <list default="true" id="9e321e7a-421e-4bf4-9ac8-f9f49846b57a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/letatoma/solution/IndexPair.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/letatoma/solution/SummableList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/letatoma/solution/Transformation.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +33,47 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexPair.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/IndexPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transformation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Transformation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummableList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/SummableList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +82,7 @@
       <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3706">
+            <state relative-caret-position="305">
               <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
               <folding>
                 <marker date="1563616447634" expanded="false" signature="0:104" ph="/.../" />
@@ -239,7 +282,7 @@
       <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7548">
+            <state relative-caret-position="17">
               <caret line="486" column="24" lean-forward="false" selection-start-line="486" selection-start-column="24" selection-end-line="486" selection-end-column="24" />
               <folding />
             </state>
@@ -249,8 +292,8 @@
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/letatoma/solution/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="93" column="14" lean-forward="false" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+            <state relative-caret-position="122">
+              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2418#2419#0" expanded="true" />
@@ -260,46 +303,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Random.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5015">
-              <caret line="332" column="15" lean-forward="false" selection-start-line="332" selection-start-column="15" selection-end-line="332" selection-end-column="15" />
-              <folding>
-                <element signature="e#11996#11997#0" expanded="true" />
-                <element signature="e#12027#12028#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23375">
-              <caret line="1434" column="27" lean-forward="false" selection-start-line="1434" selection-start-column="27" selection-end-line="1434" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -316,6 +326,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/letatoma/solution/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/letatoma/solution/SummableList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/letatoma/solution/Transformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/letatoma/solution/IndexPair.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java" />
       </list>
     </option>
@@ -373,6 +386,21 @@
               <item name="MinAbsoluteValue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MinAbsoluteValue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MinAbsoluteValue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MinAbsoluteValue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MinAbsoluteValue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MinAbsoluteValue" type="b2602c69:ProjectViewProjectNode" />
@@ -676,71 +704,72 @@
       <workItem from="1564511464439" duration="42000" />
       <workItem from="1564511548236" duration="36298000" />
       <workItem from="1565463359100" duration="11796000" />
-      <workItem from="1565537750371" duration="25000" />
+      <workItem from="1565537750371" duration="4272000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2019.08.10 at 23h 05m 17s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 07m 02s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.10 at 23h 05m 52s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 15m 08s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.10 at 23h 06m 42s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 32m 19s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.10 at 23h 07m 25s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 33m 36s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.10 at 23h 08m 35s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 34m 49s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.11 at 09h 24m 02s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 38m 38s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.11 at 09h 58m 27s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 40m 08s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.11 at 09h 58m 50s.xml">
+    <history-entry file="SolutionTest - 2019.08.11 at 18h 44m 57s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.11 at 09h 59m 28s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest$CodilityTests_testCodilityExample - 2019.08.11 at 18h 42m 38s.xml">
+      <configuration name="SolutionTest$CodilityTests.testCodilityExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.08.11 at 17h 13m 02s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest$CodilityTests_testCodilityExample - 2019.08.11 at 18h 44m 50s.xml">
+      <configuration name="SolutionTest$CodilityTests.testCodilityExample" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50021000" />
+    <option name="totallyTimeSpent" value="54268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,27 +780,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1029,10 +1038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,10 +1054,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,10 +1098,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,9 +1130,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5015">
+          <caret line="332" column="15" lean-forward="false" selection-start-line="332" selection-start-column="15" selection-end-line="332" selection-end-column="15" />
+          <folding>
+            <element signature="e#11996#11997#0" expanded="true" />
+            <element signature="e#12027#12028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23375">
+          <caret line="1434" column="27" lean-forward="false" selection-start-line="1434" selection-start-column="27" selection-end-line="1434" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14518">
+          <caret line="898" column="26" lean-forward="false" selection-start-line="898" selection-start-column="26" selection-end-line="898" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3706">
+        <state relative-caret-position="305">
           <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
           <folding>
             <marker date="1563616447634" expanded="false" signature="0:104" ph="/.../" />
@@ -1308,57 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5015">
-          <caret line="332" column="15" lean-forward="false" selection-start-line="332" selection-start-column="15" selection-end-line="332" selection-end-column="15" />
-          <folding>
-            <element signature="e#11996#11997#0" expanded="true" />
-            <element signature="e#12027#12028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23375">
-          <caret line="1434" column="27" lean-forward="false" selection-start-line="1434" selection-start-column="27" selection-end-line="1434" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="275" column="4" lean-forward="false" selection-start-line="275" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14518">
-          <caret line="898" column="26" lean-forward="false" selection-start-line="898" selection-start-column="26" selection-end-line="898" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7548">
-          <caret line="486" column="24" lean-forward="false" selection-start-line="486" selection-start-column="24" selection-end-line="486" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1367,10 +1359,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="486" column="24" lean-forward="false" selection-start-line="486" selection-start-column="24" selection-end-line="486" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/letatoma/solution/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="93" column="14" lean-forward="false" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+        <state relative-caret-position="122">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2418#2419#0" expanded="true" />
@@ -1379,14 +1379,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/IndexPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/SummableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Transformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/letatoma/solution/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

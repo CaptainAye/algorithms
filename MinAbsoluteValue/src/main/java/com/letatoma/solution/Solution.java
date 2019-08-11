@@ -2,51 +2,26 @@ package com.letatoma.solution;
 
 import java.util.*;
 
-class SummableList extends ArrayList<Integer> {
-    private int sum = 0;
-
-    public int getSum() {
-        return sum;
-    }
-
-    @Override
-    public boolean add(Integer integer) {
-        sum += integer;
-        return super.add(integer);
-    }
-
-    @Override
-    public boolean remove(Object o) {
-        if (!(o instanceof Integer)) {
-            throw new IllegalArgumentException();
-        }
-        Integer integer = (Integer) o;
-        sum -= integer;
-        return super.remove(o);
-    }
-
-    @Override
-    public Integer remove(int index) {
-        Integer number = this.get(index);
-        sum -= number;
-        return super.remove(index);
-    }
-
-    @Override
-    public boolean addAll(Collection<? extends Integer> c) {
-        for (Integer element : c) {
-            sum += element;
-            this.add(element);
-        }
-        return true;
-    }
-}
-
-interface Transformation {
-    boolean transform(List<Integer> sourceList, List<Integer> targetList, int difference);
-}
-
 public class Solution {
+
+    public int solution(int[] A) {
+
+        boolean shouldTransform = true;
+        SummableList positiveList = new SummableList();
+        SummableList negativeList = new SummableList();
+        int difference = initializeLists(A, positiveList, negativeList);
+        if (A.length < 1 || difference == 0) {
+            shouldTransform = false;
+        }
+        if (shouldTransform) {
+            difference = executeTransformation(positiveList, negativeList, difference, this::moveElementBetweenLists);
+            if (Math.abs(difference) > 1) {
+                difference = executeTransformation(positiveList, negativeList, difference, this::switchElementsBetweenLists);
+            }
+        }
+
+        return Math.abs(difference);
+    }
 
     private int initializeLists(int A[], SummableList positiveList, SummableList negativeList) {
         int difference = 0;
@@ -62,50 +37,24 @@ public class Solution {
         return difference;
     }
 
-    public int solution(int[] A) {
-
-        boolean shouldContinue = true;
-        SummableList positiveList = new SummableList();
-        SummableList negativeList = new SummableList();
-        int difference = initializeLists(A, positiveList, negativeList);
-
-        if (A.length < 1 || difference == 0) {
-            shouldContinue = false;
-        }
-
-        Transformation transformation = this::moveNumberToMinimizeDifference;
-
-        while(shouldContinue) {
+    private int executeTransformation(SummableList positiveList, SummableList negativeList, int difference, Transformation transformation) {
+        boolean shouldContinue;
+        do {
             boolean shouldMovePositive = difference > 0;
             difference = Math.abs(difference);
             shouldContinue = shouldMovePositive ?
-                    moveNumberToMinimizeDifference(positiveList, negativeList, difference) :
-                    moveNumberToMinimizeDifference(negativeList, positiveList, difference) ;
+                    transformation.transform(positiveList, negativeList, difference) :
+                    transformation.transform(negativeList, positiveList, difference) ;
             difference = positiveList.getSum() - negativeList.getSum();
-        }
+        } while (shouldContinue);
+        return difference;
 
-      shouldContinue = Math.abs(difference) > 1;
-
-        while (shouldContinue) {
-            boolean isPositiveBigger = difference > 0;
-            difference = Math.abs(difference);
-            shouldContinue = isPositiveBigger ?
-                    switchNumbersToMinimizeDifference(positiveList, negativeList, difference) :
-                    switchNumbersToMinimizeDifference(negativeList, positiveList, difference) ;
-            difference = positiveList.getSum() - negativeList.getSum();
-        }
-
-        //System.out.println("Move counter: " + moveCounter + " switch counter: " + switchCounter);
-        return Math.abs(difference);
     }
 
-    private boolean switchNumbersToMinimizeDifference(List<Integer> sourceList, List<Integer> targetList, int difference) {
-        boolean switchOperationFound = false;
+    private boolean switchElementsBetweenLists(List<Integer> sourceList, List<Integer> targetList, int difference) {
+        boolean shouldContinueSwitch = false;
         Integer sourceElementToSwitch;
         Integer targetElementToSwitch;
-        int sourceIndexToSwitch = 0;
-        int targetIndexToSwitch = 0;
-        int minimalDifference = difference;
 
         Collections.sort(sourceList);
         Collections.sort(targetList);
@@ -114,45 +63,63 @@ public class Solution {
             return false;
         }
 
+        IndexPair indicesToSwitch = findElementsToSwitch(sourceList, targetList, difference);
+
+        if (indicesToSwitch != null) {
+            sourceElementToSwitch = sourceList.get(indicesToSwitch.getSourceIndex());
+            targetElementToSwitch = targetList.get(indicesToSwitch.getTargetIndex());
+            sourceList.remove(sourceElementToSwitch);
+            targetList.remove(targetElementToSwitch);
+            sourceList.add(targetElementToSwitch);
+            targetList.add(sourceElementToSwitch);
+            difference -= 2*(sourceElementToSwitch - targetElementToSwitch);
+            shouldContinueSwitch = Math.abs(difference) > 1;
+        }
+
+        return shouldContinueSwitch;
+    }
+
+    private IndexPair findElementsToSwitch(List<Integer> sourceList, List<Integer> targetList, int difference) {
         int sourceIndex = 0;
         int targetIndex = 0;
+        IndexPair switchIndices = null;
 
-        boolean shouldContinue = true;
-
-        while (shouldContinue) {
+        boolean shouldContinue;
+        int minimalDifference = difference;
+        do {
             int sourceElement = sourceList.get(sourceIndex);
             int targetElement = targetList.get(targetIndex);
             int currentDifference = Math.abs(difference - 2*(sourceElement - targetElement));
             if ( currentDifference < minimalDifference) {
                 minimalDifference = currentDifference;
-                sourceIndexToSwitch = sourceIndex;
-                targetIndexToSwitch = targetIndex;
-                switchOperationFound = true;
+                switchIndices = new IndexPair(sourceIndex, targetIndex);
             }
             if (sourceElement - targetElement > 0) {
                 targetIndex++;
             } else {
                 sourceIndex++;
             }
-            shouldContinue = sourceIndex <sourceList.size() && targetIndex < targetList.size();
+            shouldContinue = sourceIndex < sourceList.size() && targetIndex < targetList.size();
 
-        }
-        if (switchOperationFound) {
-            sourceElementToSwitch = sourceList.get(sourceIndexToSwitch);
-            targetElementToSwitch = targetList.get(targetIndexToSwitch);
-            sourceList.remove(sourceIndexToSwitch);
-            targetList.remove(targetIndexToSwitch);
-            sourceList.add(targetElementToSwitch);
-            targetList.add(sourceElementToSwitch);
-            switchOperationFound = minimalDifference > 1;
-        }
-        return switchOperationFound;
+        } while (shouldContinue);
+        return switchIndices;
     }
 
-    private boolean moveNumberToMinimizeDifference(List<Integer> sourceList, List<Integer> targetList, int difference) {
-        boolean moveOperationFound = false;
+    private boolean moveElementBetweenLists(List<Integer> sourceList, List<Integer> targetList, int difference) {
+            Integer indexToMove = findIndexToMove(sourceList, difference);
+            if (indexToMove != null) {
+                int index = indexToMove;
+                Integer elementToMove = sourceList.remove(index);
+                targetList.add(elementToMove);
+            }
+
+        return indexToMove != null;
+    }
+
+    private Integer findIndexToMove(List<Integer> sourceList, int difference) {
         int minimalDifference = difference;
-        int indexToMove = 0;
+        Integer indexToMove = null;
+        boolean moveOperationFound = false;
         for (int i =0; i < sourceList.size(); i++) {
             int element = sourceList.get(i);
             int currentDifference = Math.abs(difference - 2*element);
@@ -163,12 +130,6 @@ public class Solution {
                 moveOperationFound = minimalDifference > 1;
             }
         }
-        if (moveOperationFound) {
-            Integer elementToMove = sourceList.remove(indexToMove);
-            targetList.add(elementToMove);
-        }
-
-        return moveOperationFound;
-
+        return indexToMove;
     }
 }
